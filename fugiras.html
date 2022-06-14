@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras geometricas</title>
+    <link rel="stylesheet" href="./css/figuras.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            Figuras geometricas
+        </h1>
+        <p>Este es el primer tallero del curso practico de javascript</p>
+    </header>
+    <main class="layout">
+        <!-- cuadrado -->
+        <section class="grow1">
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-square" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <rect x="4" y="4" width="16" height="16" rx="2" />
+            </svg>
+
+            <h2>cuadrado</h2>
+            <form class="formulario" action="">
+                <label for="ladosCuadrado">
+                Escribe cuanto mide cada lado de tu cuadrado: 
+                </label>
+                <input id="ladosCuadrado" type="number"><br>
+
+                <button type="button" onclick="calcularPerimetroCuadrado()">
+                Calcular el perimetro
+                </button>
+
+                <button type="button" onclick="calcularAreaCuadrado()">
+                Calcular el area
+                </button>
+            </form>
+        </section>
+
+        <!-- triangulo -->
+        <section class="grow1">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-triangle" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M5 19h14a2 2 0 0 0 1.84 -2.75l-7.1 -12.25a2 2 0 0 0 -3.5 0l-7.1 12.25a2 2 0 0 0 1.75 2.75" />
+            </svg>
+
+            <h2>Triangulo</h2>
+            <form class="formulario" action="">
+
+                <label for="lado1">
+                Escribe cuanto mide el lado 1 de tu triangulo: 
+                </label>
+                <input id="lado1" type="number">
+
+                <label for="lado2"><br>
+                Escribe cuanto mide el lado 2 de tu triangulo: 
+                </label>
+                <input id="lado2" type="number">
+
+                <label for="base"><br>
+                Escribe cuanto mide la base de tu triangulo: 
+                </label>
+                <input id="base" type="number">
+
+                <label for="altura"><br>
+                Escribe cuanto mide la altura de tu triangulo: 
+                </label>
+                <input id="altura" type="number"><br>
+
+                <button type="button" onclick="calcularPerimetroTriangulo()">
+                Calcular el perimetro
+                </button>
+
+                <button type="button" onclick="calcularAreaTriangulo()">
+            Calcular el area
+            </button>
+            </form>
+        </section>
+
+        <!-- circulo -->
+        <section class="grow1">
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="12" cy="12" r="9" />
+            </svg>
+
+            <h2>Circulo</h2>
+            <form class="formulario" action="">
+                <label for="radioCirculo">
+                Escribe cuanto mide el radio del circulo: 
+            </label>
+                <input id="radioCirculo" type="number"><br>
+
+                <button type="button" onclick="calcularPerimetroCirculo()">
+            Calcular el perimetro
+            </button>
+
+                <button type="button" onclick="calcularAreaCirculo()">
+            Calcular el area
+            </button>
+            </form>
+        </section>
+
+    </main>
+    <script src="./javascript/figuras.js"></script>
+</body>
+
+</html>

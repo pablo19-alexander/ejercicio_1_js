@@ -1,0 +1,10 @@
+PERIMETRO
+como calcular el perimetro de un cuadrado = sumamos todos sus lados (1x4)
+perimetro de un triangulo = sumar los tres lados del triangulo (l+l+l)
+perimetro de un circulo o circunferencia = (radio) = la mitad del circulo, (diametro) = es el radio * 2,
+y para calcular la circunferencia, diametro * pi  
+
+AREA
+area de un cuadrado = multiplicar uno de los lados por el mismo(a*b)
+area de un triangulo = (base x altura)/2
+radio de un circulo = radio^2 * PI
